@@ -7,6 +7,6 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     serviceUrl:
-      defaultZone: ${eureka.instance.hostname}:${server.port}/
+      defaultZone: ${eureka.instance.hostname}
   server:
     registry-sync-retry-wait-ms: 0
