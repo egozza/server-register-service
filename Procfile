@@ -1,0 +1,1 @@
+web: java -jar target/server-register-service-1.jar
